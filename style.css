@@ -445,6 +445,9 @@ a:hover{
 ================================================== */
 
 @media (max-width: 1200px) { 
+	.shadow-title, .shadow-title-right {
+		position: absolute;
+	}
 	.section-parallax {
 		position: absolute;
 		background-size: cover;
