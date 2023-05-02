@@ -446,7 +446,7 @@ a:hover{
 
 @media (max-width: 1200px) { 
 	.section-parallax {
-		position: relative;
+		position: absolute;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
