@@ -88,7 +88,7 @@ a:hover{
 	font-family: 'Muli', sans-serif;
 	-webkit-writing-mode: vertical-lr;
 	writing-mode: vertical-lr;
-	font-size: 12vw;
+	font-size: 5vw;
 	line-height: 1;
 	color: rgba(200,200,200,.1);
 	background: linear-gradient(90deg, rgba(200,200,200,0), rgba(255, 255, 255, 0.555));
@@ -114,7 +114,7 @@ a:hover{
 	font-family: 'Muli', sans-serif;
 	-webkit-writing-mode: vertical-lr;
 	writing-mode: vertical-lr;
-	font-size: 12vw;
+	font-size: 5vw;
 	line-height: 1;
 	color: rgba(200,200,200,.1);
 	background: linear-gradient(-90deg, rgba(200,200,200,0), rgba(255, 255, 255, 0.555));
@@ -537,4 +537,16 @@ a:hover{
     opacity: 0.8;
     border-radius: 8px;
     box-shadow: 0 0 0 20px rgba(255,255,255,.1);
+}
+
+@media (max-width: 767px) {
+  .parallax-fade-top {
+    top: 0 !important;
+    opacity: 1 !important;
+  }
+  .parallax-00,
+  .parallax-01,
+  .parallax-top-shadow {
+    top: 0 !important;
+  }
 }

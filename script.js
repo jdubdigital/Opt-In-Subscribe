@@ -1,33 +1,30 @@
-/* Please ❤ this if you like it! */
-
-
 (function ($) {
 	"use strict";
 
 	//Parallax            
-
 	function scrollBanner() {
-		$(document).on('scroll', function () {
-			var scrollPos = $(this).scrollTop();
-			$('.parallax-fade-top').css({
-				'top': (scrollPos / 2) + 'px',
-				'opacity': 1 - (scrollPos / 700)
+		if (window.innerWidth > 767) {
+			$(document).on('scroll', function () {
+				var scrollPos = $(this).scrollTop();
+				$('.parallax-fade-top').css({
+					'top': (scrollPos / 2) + 'px',
+					'opacity': 1 - (scrollPos / 700)
+				});
+				$('.parallax-00').css({
+					'top': (scrollPos / -3.5) + 'px'
+				});
+				$('.parallax-01').css({
+					'top': (scrollPos / -2.8) + 'px'
+				});
+				$('.parallax-top-shadow').css({
+					'top': (scrollPos / -2) + 'px'
+				});
 			});
-			$('.parallax-00').css({
-				'top': (scrollPos / -3.5) + 'px'
-			});
-			$('.parallax-01').css({
-				'top': (scrollPos / -2.8) + 'px'
-			});
-			$('.parallax-top-shadow').css({
-				'top': (scrollPos / -2) + 'px'
-			});
-		});
+		}
 	}
 	scrollBanner();
 
 	//Page cursors
-
 	document.getElementsByTagName("body")[0].addEventListener("mousemove", function (n) {
 		t.style.left = n.clientX + "px",
 			t.style.top = n.clientY + "px",
@@ -53,9 +50,7 @@
 		t.addEventListener("mouseover", n), t.addEventListener("mouseout", s)
 	}
 
-
 	//Scroll back to top
-
 	$(document).ready(function () {
 		var offset = 300;
 		var duration = 400;
@@ -72,9 +67,7 @@
 			return false;
 		})
 
-
 		/* Hero Case study images */
-
 		$('.case-study-name:nth-child(1)').on('mouseenter', function () {
 			$('.case-study-name.active').removeClass('active');
 			$('.case-study-images li.show').removeClass("show");
@@ -92,15 +85,13 @@
 			$('.case-study-images li.show').removeClass("show");
 			$('.case-study-images li:nth-child(3)').addClass("show");
 			$('.case-study-name:nth-child(3)').addClass('active');
-		})
-		$('.case-study-name:nth-child(4)').on('mouseenter', function () {
+			})
+			$('.case-study-name:nth-child(4)').on('mouseenter', function () {
 			$('.case-study-name.active').removeClass('active');
 			$('.case-study-images li.show').removeClass("show");
 			$('.case-study-images li:nth-child(4)').addClass("show");
 			$('.case-study-name:nth-child(4)').addClass('active');
-		})
+			})
 		$('.case-study-name:nth-child(1)').trigger('mouseenter')
-
 	});
-
 })(jQuery);
