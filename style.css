@@ -455,6 +455,9 @@ a:hover{
 	.shadow-title, .shadow-title-right {
 		font-size: 12vw;
 	}
+	.section-parallax {
+		background: none;
+	}
 	.link-to-portfolio {
 		width: 120px;
 	}
@@ -547,3 +550,4 @@ a:hover{
     top: 0 !important;
   }
 }
+
