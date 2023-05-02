@@ -1,12 +1,12 @@
+/* Please ❤ this if you like it! */
+
+
 (function ($) {
 	"use strict";
 
-	//Parallax
-	function scrollBanner() {
-		if (window.innerWidth <= 1200) {
-			return;
-		}
+	//Parallax            
 
+	function scrollBanner() {
 		$(document).on('scroll', function () {
 			var scrollPos = $(this).scrollTop();
 			$('.parallax-fade-top').css({
