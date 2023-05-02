@@ -446,6 +446,7 @@ a:hover{
 
 @media (max-width: 1200px) { 
 	.section-parallax {
+		position: absolute;
 		background-size: contain;
 	}
 	.link-to-portfolio {
