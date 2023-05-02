@@ -176,7 +176,7 @@ a:hover{
 }
 .get-started {
 	color: #fff;
-	padding: 1em 2em;
+	padding: 0.7em 2em;
 	border: 2px solid #fff;
 	border-radius: 8px;
 }
@@ -446,7 +446,7 @@ a:hover{
 
 @media (max-width: 1200px) { 
 	.full-height {
-		height: 700px;
+		height: 650px;
 	}
 	.shadow-title, .shadow-title-right {
 		font-size: 12vw;
