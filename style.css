@@ -5,28 +5,26 @@ body{
 	display: block;
 	overflow-x: hidden;
 	background: #0f0c29;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-  color: #c4c3ca;
+	background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  	color: #c4c3ca;
 	font-family: 'Muli', sans-serif;
 	-ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  	scrollbar-width: none;  /* Firefox */
 }
 body::-webkit-scrollbar {
 	display: none;
 }
 ::selection {
 	background-color: #000;
-  color: #fff;
+  	color: #fff;
 }
 ::-moz-selection {
 	background-color: #000;
-  color: #fff;
+  	color: #fff;
 }
 a:hover{
-  text-decoration: none;
+  	text-decoration: none;
 }
 
 /* #Cursor
@@ -91,7 +89,7 @@ a:hover{
 	font-size: 8vw;
 	line-height: 1;
 	color: rgba(200,200,200,.1);
-	background: linear-gradient(90deg, rgba(200,200,200,0), rgba(255, 255, 255, 0.555));
+	background: linear-gradient(90deg, rgba(200,200,200,0), rgba(255, 255, 255, 0.90));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-weight: 900;
@@ -117,7 +115,7 @@ a:hover{
 	font-size: 8vw;
 	line-height: 1;
 	color: rgba(200,200,200,.1);
-	background: linear-gradient(-90deg, rgba(200,200,200,0), rgba(255, 255, 255, 0.555));
+	background: linear-gradient(-90deg, rgba(200,200,200,0), rgba(255, 255, 255, 0.90));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-weight: 900;
@@ -149,7 +147,7 @@ a:hover{
 }
 .section-title-wrap{
 	position: absolute;
-  top: 50%;
+  top: 53%;
   left: 0;
   width: 100%;
   transform: translateY(-50%);
@@ -445,10 +443,25 @@ a:hover{
 	transform: translateY(0);
 }
 
+#subscribe {
+	width: 640px;
+	height: 655px;
+	margin: -5em auto 5em auto;
+	background-color: #2F2A62;
+	border-radius: 10px;
+	box-shadow: 0 0 30px rgba(0,0,0,.8);
+	padding: 32px;
+}
+
 /* #Media
 ================================================== */
 
 @media (max-width: 1200px) { 
+	#subscribe {
+		width: 350px;
+		height: 780px;
+		margin: 0 auto;
+	}
 	.full-height {
 		height: 670px;
 	}
@@ -518,17 +531,17 @@ a:hover{
 	align-items: center;
 }
 .link-to-portfolio {
-	  position: absolute;
+    position: absolute;
     top: 30px;
     z-index: 20;
     cursor: pointer;
-    width: 160px;
-    height: 65px;
+    width: 180px;
+    height: 62px;
     text-align: center;
     border-radius: 3px;
     background-position: center center;
     background-size: cover;
-    background-image: url('https://fallsviewcasinoresort.com/content/dam/fallsview/theme/fallsview-logo.png');
+    background-image: url('FCR_reverse.svg');
     transition: opacity .2s, border-radius .2s, box-shadow .2s;
     transition-timing-function: ease-out;
 }
@@ -550,4 +563,3 @@ a:hover{
     top: 0 !important;
   }
 }
-
