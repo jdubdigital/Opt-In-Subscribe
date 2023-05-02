@@ -190,6 +190,10 @@ a:hover{
 .background-dark {
 	background-color: #101010;
 }
+.legal {
+	text-align: justify;
+	font-size: 12px;
+}
 .project-link-wrap{
 	position: relative;
 	display: block;
@@ -199,7 +203,7 @@ a:hover{
 	cursor: pointer;
 }
 .project-link-wrap p{
-	font-size: 100px;
+	font-size: 18px;
 	line-height: 80px;
 	color: #c4c3ca;
 	font-weight: 900;
@@ -462,6 +466,9 @@ a:hover{
 		width: 85%;
 		margin: 1em auto;
 	}
+	.legal {
+		padding: 0 5%;
+	}
   .scroll-to-top{
     right: 13px;
   } 
@@ -469,7 +476,7 @@ a:hover{
     left: 13px;
   }
 	.project-link-wrap p{
-		font-size: 70px;
+		font-size: 16px;
 	}
 }
 
