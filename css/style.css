@@ -479,11 +479,6 @@ a:hover{
 		position: absolute;
 		height: 100%;
 	}
-	.shadow-title-right {
-		right:0px;
-		padding-right: 15px;
-		width:130%;
-	}
 	.section-parallax {
 		position: absolute;
 		background-size: 1000px;
