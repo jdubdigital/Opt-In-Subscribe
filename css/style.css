@@ -548,7 +548,7 @@ a:hover{
     border-radius: 3px;
     background-position: center center;
     background-size: cover;
-    background-image: url('img/FCR_reverse.svg');
+    background-image: url('https://fallsviewcasinoresort.com/content/dam/fallsview/theme/fallsview-logo.png');
     transition: opacity .2s, border-radius .2s, box-shadow .2s;
     transition-timing-function: ease-out;
 }
