@@ -475,9 +475,9 @@ a:hover{
 		position: absolute;
 		height: 100%;
 	}
-	.section-parallax {
+	/*.section-parallax {
 		position: absolute;
-	}
+	}*/
 	.link-to-portfolio {
 		width: 120px;
 	}
