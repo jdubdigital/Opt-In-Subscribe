@@ -481,7 +481,8 @@ a:hover{
 	}
 	.section-parallax {
 		position: absolute;
-		background-size: contain;
+		background-size: 1000px;
+		background-repeat: no-repeat;
 	}
 	.link-to-portfolio {
 		width: 120px;
